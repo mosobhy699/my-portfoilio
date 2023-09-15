@@ -10,7 +10,7 @@ const About = () => {
   return (
     <>
       <h2 className="head-text">ABOUT ME <span>if you wondering</span> <br />WHO  <span>I AM </span></h2>
-      <p className='app__profiles' >Hi, My name is <span style={{color:"var(--secondary-color)"}}> Mohamed Sobhy</span> 28 years old. <br /> I am really passionate about technology and Computer learning Specially <span style={{color:"var(--secondary-color)"}}>Web Development</span>
+      <p className='app__profiles' >Hi, My name is <span style={{color:"var(--secondary-color)"}}> Mohamed Sobhy</span> 28 years old. <br /> I am really passionate about technology and Computer learning especially <span style={{color:"var(--secondary-color)"}}>Web Development</span>
       </p>
       <div className="app__profile-item" >
         <div className="alldiv">
