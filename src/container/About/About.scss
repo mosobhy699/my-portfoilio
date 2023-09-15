@@ -1,0 +1,152 @@
+.app__about {
+  flex: 1;
+  width: 100%;
+  flex-direction: column;
+}
+
+.app__profiles {
+  text-align: center;
+  font-size: 32px;
+  width: 90%;
+
+  @media (max-width:940px) {
+    font-size: 25px;
+  }
+}
+
+.app__profile-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+  flex-wrap: wrap;
+
+  @media (max-width:1390px) {
+    justify-content: center;
+    margin-top: 0;
+  }
+
+  .alldiv {
+    @media (max-width:1390px) {
+      margin-top: 150px;
+    }
+  }
+
+  h6 {
+    font-size: 40px;
+    font-weight: normal;
+    margin-bottom: 30px;
+
+    @media (max-width:940px) {
+      font-size: 30px;
+    }
+  }
+
+  h5 {
+    font-size: 25px;
+
+    @media (max-width:940px) {
+      font-size: 20px;
+    }
+  }
+
+  .item {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(300px, 1fr));
+    row-gap: 25px;
+    column-gap: 50px;
+
+    @media (max-width:940px) {
+      grid-template-columns: auto;
+      column-gap: 0;
+    }
+
+
+  }
+
+  .details {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    p {
+      font-size: 20px;
+
+      @media (max-width:940px) {
+        font-size: 15px;
+      }
+    }
+  }
+
+  .profile {
+    width: 350px;
+    height: 350px;
+    margin-right: 50px;
+
+    @media (max-width:1390px) {
+      order: -1;
+    }
+
+    img {
+      width: 100%;
+      border-radius: 50%;
+
+    }
+  }
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+  width: fit-content;
+
+  button {
+    font-size: 20px;
+    font-size: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    color: black;
+
+    svg {
+      font-size: 30px;
+      color: black;
+    }
+  }
+}
+
+.lan {
+  width: 100%;
+
+  .lanp {
+    text-align: center;
+    font-size: 30px;
+    text-transform: capitalize;
+  }
+}
+
+.icons {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  width: 100%;
+  margin-top: 50px;
+  .images {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+gap: 5px;
+    img {
+      width: 100%;
+    }
+  }
+}
