@@ -42,7 +42,7 @@ const About = () => {
                 <h5>Email: </h5>
                 <p> mohamedsobhy7899@gmail.com</p>
               </div>
-              <a><button>DownLoad CV <AiOutlineDownload /></button></a>
+              <a href="https://drive.google.com/drive/u/0/folders/1pWO636f3lqFo1ZXPy5k_uF9ByG6_Lngr"><button>DownLoad CV <AiOutlineDownload /></button></a>
             </div>
           </div>
         </div>
